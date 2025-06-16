@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GIS</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out for inquiries or support.</p>
+            <form class="contact-form" id="contact-form" action="https://formsubmit.co/ebamfam23@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+                <input type="hidden" name="_subject" value="New GIS Contact Form Submission">
+                <input type="hidden" name="_captcha" value="true">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <div class="form-response" id="contact-response"></div>
+            </form>
+            <div class="contact-info">
+                <p>Email: info@gisfavorde.edu</p>
+                <p>Phone: +2349072501952, +2348060191216, +2348123777306</p>
+                <p>Address: 46, Akinsaku Paseda Road, Maba, Okeoko, Off Isawo road, Ikorodu, Lagos, Nigeria</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 God Favorde International Schools. All rights reserved.</p>
+        <p>Favor, Famous, Faith and Fortune in God</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
